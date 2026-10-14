@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Joshua</title>
+  <link rel="stylesheet" href="contactCss/style.css">
+</head>
+
+<body>
+
+  <main class="portfolio">
+
+    <!-- Navigation -->
+    <header class="header">
+      <a href="index.html" class="logo">Joshua</a>
+
+      <nav>
+        <a href="index.html">Projects</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="content">
+
+      <div class="intro">
+        <p class="eyebrow">Get in touch</p>
+
+        <h1>
+          Let's<br>
+          <em>talk.</em>
+        </h1>
+
+        <p class="description">
+          Have a project in mind? Need a website
+          or a creative design? Let's work together
+          and bring your ideas to life.
+        </p>
+
+        <div class="contact-details">
+          <div class="detail">
+            <span class="detail-label">Email</span>
+            <a href="mailto:hello@example.com">
+              hello@example.com
+            </a>
+          </div>
+
+          <div class="detail">
+            <span class="detail-label">Location</span>
+            <p>Lagos, Nigeria</p>
+          </div>
+
+          <div class="detail">
+            <span class="detail-label">Availability</span>
+            <p>Available for projects</p>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="X">𝕏</a>
+          <a href="#" aria-label="GitHub">◉</a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form" action="https://formsubmit.co/your-email@example.com" method="POST">
+
+        <p class="eyebrow">Have a project?</p>
+
+        <h2>Send a message</h2>
+
+        <input
+          type="hidden"
+          name="_subject"
+          value="New portfolio contact message"
+        >
+
+        <input
+          type="hidden"
+          name="_captcha"
+          value="true"
+        >
+
+        <label for="name">Your name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        >
+
+        <label for="email">Email address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        >
+
+        <label for="subject">Subject</label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="What is this about?"
+          required
+        >
+
+        <label for="message">Your message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Tell me about your project..."
+          required
+        ></textarea>
+
+        <button type="submit">
+          Send Message <span>⟶</span>
+        </button>
+
+      </form>
+
+    </section>
+
+    <footer class="footer">
+      <p>© 2026 Joshua. All rights reserved.</p>
+      <p>Designed with intention.</p>
+    </footer>
+
+    <div class="scroll-indicator">
+      <span>Contact</span>
+      <i></i>
+    </div>
+
+  </main>
+
+</body>
+</html>
